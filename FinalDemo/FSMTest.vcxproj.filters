@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="States">
+      <UniqueIdentifier>{6959a99c-c019-4b2f-80f5-8c88304366dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Harvester.h" />
+    <ClInclude Include="HarvesterStates.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Refinery.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Harvester.cpp" />
+    <ClCompile Include="HarvesterStates.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="Refinery.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sge.ini" />
+  </ItemGroup>
+</Project>

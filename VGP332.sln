@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AI", "AI\AI.vcxproj", "{DE1C9D78-9068-4F73-8FA3-D39EE9A38681}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SGE", "SGE\SGE.vcxproj", "{34282BBF-80BD-40A9-8B00-4B6955B5D24A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathfindingTest", "PathfindingTest\PathfindingTest.vcxproj", "{14B8AAE2-1CF8-491E-94BD-4AC71CBEC9B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SteeringTest", "SteeringTest\SteeringTest.vcxproj", "{E1690BEE-7371-4CAE-AC0C-1291B919CE4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FSMTest", "FSMTest\FSMTest.vcxproj", "{53FD5142-D0F0-44C4-AC0E-31EBC4A2B162}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathPlanningTest", "PathPlanningTest\PathPlanningTest.vcxproj", "{A8F6C86A-A7FC-4E4F-98FA-2951F95F3A93}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FinalDemo", "FinalDemo\FinalDemo.vcxproj", "{CF6E0E2D-7148-411A-B1B1-3F6D8AA43460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE1C9D78-9068-4F73-8FA3-D39EE9A38681}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE1C9D78-9068-4F73-8FA3-D39EE9A38681}.Debug|Win32.Build.0 = Debug|Win32
+		{DE1C9D78-9068-4F73-8FA3-D39EE9A38681}.Release|Win32.ActiveCfg = Release|Win32
+		{DE1C9D78-9068-4F73-8FA3-D39EE9A38681}.Release|Win32.Build.0 = Release|Win32
+		{34282BBF-80BD-40A9-8B00-4B6955B5D24A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34282BBF-80BD-40A9-8B00-4B6955B5D24A}.Debug|Win32.Build.0 = Debug|Win32
+		{34282BBF-80BD-40A9-8B00-4B6955B5D24A}.Release|Win32.ActiveCfg = Release|Win32
+		{34282BBF-80BD-40A9-8B00-4B6955B5D24A}.Release|Win32.Build.0 = Release|Win32
+		{14B8AAE2-1CF8-491E-94BD-4AC71CBEC9B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14B8AAE2-1CF8-491E-94BD-4AC71CBEC9B6}.Debug|Win32.Build.0 = Debug|Win32
+		{14B8AAE2-1CF8-491E-94BD-4AC71CBEC9B6}.Release|Win32.ActiveCfg = Release|Win32
+		{14B8AAE2-1CF8-491E-94BD-4AC71CBEC9B6}.Release|Win32.Build.0 = Release|Win32
+		{E1690BEE-7371-4CAE-AC0C-1291B919CE4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1690BEE-7371-4CAE-AC0C-1291B919CE4D}.Debug|Win32.Build.0 = Debug|Win32
+		{E1690BEE-7371-4CAE-AC0C-1291B919CE4D}.Release|Win32.ActiveCfg = Release|Win32
+		{E1690BEE-7371-4CAE-AC0C-1291B919CE4D}.Release|Win32.Build.0 = Release|Win32
+		{53FD5142-D0F0-44C4-AC0E-31EBC4A2B162}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53FD5142-D0F0-44C4-AC0E-31EBC4A2B162}.Debug|Win32.Build.0 = Debug|Win32
+		{53FD5142-D0F0-44C4-AC0E-31EBC4A2B162}.Release|Win32.ActiveCfg = Release|Win32
+		{53FD5142-D0F0-44C4-AC0E-31EBC4A2B162}.Release|Win32.Build.0 = Release|Win32
+		{A8F6C86A-A7FC-4E4F-98FA-2951F95F3A93}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A8F6C86A-A7FC-4E4F-98FA-2951F95F3A93}.Debug|Win32.Build.0 = Debug|Win32
+		{A8F6C86A-A7FC-4E4F-98FA-2951F95F3A93}.Release|Win32.ActiveCfg = Release|Win32
+		{A8F6C86A-A7FC-4E4F-98FA-2951F95F3A93}.Release|Win32.Build.0 = Release|Win32
+		{CF6E0E2D-7148-411A-B1B1-3F6D8AA43460}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF6E0E2D-7148-411A-B1B1-3F6D8AA43460}.Debug|Win32.Build.0 = Debug|Win32
+		{CF6E0E2D-7148-411A-B1B1-3F6D8AA43460}.Release|Win32.ActiveCfg = Release|Win32
+		{CF6E0E2D-7148-411A-B1B1-3F6D8AA43460}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

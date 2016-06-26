@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="BreadthFirstSearch.h">
+      <Filter>Graph\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthFirstSearch.h">
+      <Filter>Graph\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphSearch.h">
+      <Filter>Graph\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Coord2.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraSearch.h">
+      <Filter>Graph\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarSearch.h">
+      <Filter>Graph\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h" />
+    <ClInclude Include="SeekBahavior.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehavior.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringModule.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrive.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="AIWorld.h" />
+    <ClInclude Include="Wander.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleAvoidance.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Separate.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Alignment.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Cohesion.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="PathPlanner.h">
+      <Filter>Pathing</Filter>
+    </ClInclude>
+    <ClInclude Include="PerceptionModule.h">
+      <Filter>Perception</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="BreadthFirstSearch.cpp">
+      <Filter>Graph\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthFirstSearch.cpp">
+      <Filter>Graph\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSearch.cpp">
+      <Filter>Graph\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="DijkstraSearch.cpp">
+      <Filter>Graph\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarSearch.cpp">
+      <Filter>Graph\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp" />
+    <ClCompile Include="SeekBahavior.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehavior.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringModule.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrive.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="AIWorld.cpp" />
+    <ClCompile Include="Wander.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleAvoidance.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Separate.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Alignment.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Cohesion.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="PathPlanner.cpp">
+      <Filter>Pathing</Filter>
+    </ClCompile>
+    <ClCompile Include="PerceptionModule.cpp">
+      <Filter>Perception</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{4672b87d-b455-4ac5-bdbb-f5167b84f6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph\Search">
+      <UniqueIdentifier>{370597b4-86f5-4a3d-baa6-b6880297ff67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steering">
+      <UniqueIdentifier>{aa3cde71-0d77-4226-89c0-93ddf84c5267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{fc125130-c13d-40a3-b999-2b74a1516278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pathing">
+      <UniqueIdentifier>{9669ecba-e9ef-4982-9680-ad5e19444864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Perception">
+      <UniqueIdentifier>{fdf19812-24b9-41f5-86d5-8287e48e39b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StateMachine.inl">
+      <Filter>FSM</Filter>
+    </None>
+  </ItemGroup>
+</Project>
